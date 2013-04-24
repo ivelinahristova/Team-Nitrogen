@@ -11,6 +11,7 @@ namespace Labyrinth
     {
         public static void ShowLabyrinth(LabyrinthMatrix labyrinth)
         {
+            //Some changes
             Console.WriteLine();
             char[][] myMatrix = labyrinth.Matrix;
             for (int i = 0; i < myMatrix.Length; i++)
